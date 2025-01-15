@@ -1,0 +1,8 @@
+{
+  "/(protected)/home/page": "app/(protected)/home/page.js",
+  "/(protected)/matches/page": "app/(protected)/matches/page.js",
+  "/(protected)/teams/page": "app/(protected)/teams/page.js",
+  "/(protected)/soccer/page": "app/(protected)/soccer/page.js",
+  "/(protected)/players/page": "app/(protected)/players/page.js",
+  "/(protected)/leagues/page": "app/(protected)/leagues/page.js"
+}

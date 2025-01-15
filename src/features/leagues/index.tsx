@@ -67,7 +67,7 @@ function Leagues() {
         <div className="flex flex-col min-h-[78.5vh] justify-between w-full h-full">
           <div className={`w-full h-full border-x-2 border-b-2`}>
             <div
-              className={`grid mt-3 grid-cols-4 grid-cols-3 grid-cols-2 gap-3 p-3 pt-0`}
+              className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8`}
             >
               {displayedData.map((league: Data) => (
                 <Link href={`/leagues/${league.id}`} key={league.id}>
