@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.bg-contain {
+    background-size: contain;
+    background-position: top right;
+}
+
+.tab-active{
+    background: #5742A9 !important;
+    color: #fff !important;
+}
+.scoreCard{
+
+}
+
+.card.image-full.scoreCard:before{
+    background-color: transparent !important;
+    opacity: 1 !important;
+}
+
+.scoreCard .card-body :where(p) {
+    flex-grow: revert !important;
+}
